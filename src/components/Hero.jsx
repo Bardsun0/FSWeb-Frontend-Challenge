@@ -12,7 +12,7 @@ const Hero = () => {
           frontend products. Let's meet!
         </p>
         <div className="flex items-center space-x-4 mt-12">
-          <FaLinkedin size={34} className="text-black bg-custom-white" />
+          <FaLinkedin size={34} />
           <FaGithub size={34} />
         </div>
         <div className="text-lg leading-relaxed mt-4">
@@ -25,7 +25,10 @@ const Hero = () => {
           </p>
           <p>
             Invite me to join your team →{" "}
-            <a href="mailto:ozangunes2894@gmail.com" className="text-custom-pink">
+            <a
+              href="mailto:ozangunes2894@gmail.com"
+              className="text-custom-pink"
+            >
               ozangunes2894@gmail.com
             </a>
           </p>

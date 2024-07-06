@@ -1,4 +1,4 @@
-import BGHero from './components/BGHero';
+import BGHero from "./components/BGHero";
 
 function App() {
   return (

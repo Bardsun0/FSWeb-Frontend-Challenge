@@ -1,5 +1,3 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-
 const Hero = () => {
   return (
     <div className="w-[1107px] h-[493px] font-inter flex justify-between">
@@ -12,8 +10,28 @@ const Hero = () => {
           frontend products. <p>Let's meet!</p>
         </p>
         <div className="flex items-center space-x-4 mt-12">
-          <FaLinkedin size={34} />
-          <FaGithub size={34} />
+          <a
+            href="https://www.linkedin.com/in/ozan-g%C3%BCne%C5%9F-500097312/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/src/assets/Icons/LinkedIn.png"
+              alt="LinkedIn"
+              className="w-[31px] h-[33.95px]"
+            />
+          </a>
+          <a
+            href="https://github.com/Bardsun0"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/src/assets/Icons/gitHub.png"
+              alt="GitHub"
+              className="w-[34px] h-[36.14px]"
+            />
+          </a>
         </div>
         <div className="text-lg leading-relaxed mt-4 font-normal">
           <p>

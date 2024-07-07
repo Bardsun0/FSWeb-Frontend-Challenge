@@ -4,10 +4,10 @@ const Hero = () => {
   return (
     <div className="w-[1107px] h-[493px] font-inter flex justify-between">
       <div className="flex-1 pr-8 flex flex-col justify-between font-semibold">
-        <h1 className="text-3xl font-normal mb-4 drop-shadow-lg">
+        <h1 className="text-3xl font-normal mb-4 text-shadow-custom">
           Hi!<span className="ml-2">👋</span>
         </h1>
-        <p className="text-[42px] leading-normal mb-4 drop-shadow-lg">
+        <p className="text-[42px] mb-4 font-medium text-shadow-custom">
           I'm Ozan. I'm a frontend developer. I can craft solid and scalable
           frontend products. <p>Let's meet!</p>
         </p>
@@ -15,10 +15,10 @@ const Hero = () => {
           <FaLinkedin size={34} />
           <FaGithub size={34} />
         </div>
-        <div className="text-lg leading-relaxed mt-4">
+        <div className="text-lg leading-relaxed mt-4 font-normal">
           <p>
-            Currently <span className="text-custom-pink">Freelancing</span> for{" "}
-            <span className="text-custom-pink">
+            Currently <span className="text-custom-darkpink">Freelancing</span> for{" "}
+            <span className="text-custom-darkpink">
               UX, UI, & Web Design Project
             </span>
             .
@@ -27,7 +27,7 @@ const Hero = () => {
             Invite me to join your team →{" "}
             <a
               href="mailto:ozangunes2894@gmail.com"
-              className="text-custom-pink"
+              className="text-custom-darkpink"
             >
               ozangunes2894@gmail.com
             </a>

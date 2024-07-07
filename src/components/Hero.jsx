@@ -17,11 +17,10 @@ const Hero = () => {
         </div>
         <div className="text-lg leading-relaxed mt-4 font-normal">
           <p>
-            Currently <span className="text-custom-darkpink">Freelancing</span> for{" "}
-            <span className="text-custom-darkpink">
-              UX, UI, & Web Design Project
-            </span>
-            .
+            Currently <span className="text-custom-darkpink">Freelancing</span>{" "}
+            for{" "}
+            <span className="text-custom-darkpink">UX, UI, & Web Design </span>
+            Project .
           </p>
           <p>
             Invite me to join your team →{" "}
@@ -35,9 +34,12 @@ const Hero = () => {
         </div>
       </div>
       <div className="relative pt-10 pr-5">
-        {" "}
-        <div className="w-[361px] h-[361px] rounded-[40px] overflow-hidden bg-custom-pink">
-          {/* Profile photo will go here */}
+        <div className="w-[361px] h-[361px] rounded-[40px] overflow-hidden bg-custom-pink flex items-center justify-center shadow-2xl">
+          <img
+            src="/src/assets/IMG_04261.jpg"
+            alt="Profile"
+            className="w-[341px] h-[341px] rounded-[22px] object-cover absolute bottom-[80px] left-[30px] border-2 border-black shadow-2xl"
+          />
         </div>
       </div>
     </div>

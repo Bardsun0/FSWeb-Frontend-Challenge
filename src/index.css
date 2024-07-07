@@ -4,9 +4,10 @@
 @tailwind utilities;
 
 body {
-  @apply bg-custom-black;
+  @apply bg-white;
 }
-
+/*
 .App {
   background-image: url("/src/assets/Birinci\ Alternatif.png");
 }
+*/

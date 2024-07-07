@@ -5,9 +5,15 @@ const Hero = () => {
         <h1 className="text-3xl font-normal mb-4 text-shadow-custom">
           Hi!<span className="ml-2">👋</span>
         </h1>
+        <div className="relative mb-4">
+          <p className="text-[42px] font-medium text-shadow-custom">
+            I'm Ozan. I'm a frontend developer.
+          </p>
+          <div className="absolute bottom-[-5px] left-[-15px] w-[148px] h-[31px] bg-custom-pink bg-opacity-80 border-2 border-black shadow-2xl rounded-md"></div>
+        </div>
         <p className="text-[42px] mb-4 font-medium text-shadow-custom">
-          I'm Ozan. I'm a frontend developer. I can craft solid and scalable
-          frontend products. <p>Let's meet!</p>
+          I can craft solid and scalable frontend products.
+          <p>Let's meet!</p>
         </p>
         <div className="flex items-center space-x-4 mt-12">
           <a

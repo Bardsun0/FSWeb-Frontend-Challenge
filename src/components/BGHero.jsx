@@ -3,7 +3,7 @@ import ModeSwitch from "./ModeSwitch";
 
 function BGHero() {
   return (
-    <div className="w-[1440px] h-[738px] drop-shadow-lg relative bg-custom-lightgray">
+    <div className="w-[1440px] h-[738px] drop-shadow-xl relative bg-custom-lightgray">
       <div className="absolute top-[25px] right-[120px]">
         <ModeSwitch />
       </div>

@@ -3,11 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-white;
-}
-/*
 .App {
   background-image: url("/src/assets/Birinci\ Alternatif.png");
 }
-*/
+

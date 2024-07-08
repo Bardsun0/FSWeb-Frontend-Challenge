@@ -9,7 +9,7 @@ const Hero = () => {
           <p className="text-[42px] font-medium text-shadow-custom">
             I'm Ozan. I'm a frontend developer.
           </p>
-          <div className="absolute bottom-[-5px] left-[-15px] w-[148px] h-[31px] bg-custom-darkpink bg-opacity-80 shadow-2xl rounded-md"></div>
+          <div className="absolute bottom-[-5px] left-[-15px] w-[148px] h-[31px] bg-custom-pink bg-opacity-80 shadow-2xl rounded-md"></div>
         </div>
         <p className="text-[42px] mb-4 font-medium text-shadow-custom">
           I can craft solid and scalable frontend products.

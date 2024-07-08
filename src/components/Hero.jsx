@@ -49,7 +49,7 @@ const Hero = () => {
             Invite me to join your team →{" "}
             <a
               href="mailto:ozangunes2894@gmail.com"
-              className="text-custom-darkpink"
+              className="text-custom-darkpink underline"
             >
               ozangunes2894@gmail.com
             </a>

@@ -9,7 +9,7 @@ const Hero = () => {
           <p className="text-[42px] font-medium text-shadow-custom">
             I'm Ozan. I'm a frontend developer.
           </p>
-          <div className="absolute bottom-[-5px] left-[-15px] w-[148px] h-[31px] bg-custom-pink bg-opacity-80 border-2 border-black shadow-2xl rounded-md"></div>
+          <div className="absolute bottom-[-5px] left-[-15px] w-[148px] h-[31px] bg-custom-darkpink bg-opacity-80 shadow-2xl rounded-md"></div>
         </div>
         <p className="text-[42px] mb-4 font-medium text-shadow-custom">
           I can craft solid and scalable frontend products.
@@ -39,7 +39,7 @@ const Hero = () => {
             />
           </a>
         </div>
-        <div className="text-lg leading-relaxed mt-4 font-normal">
+        <div className="text-lg leading-relaxed mt-4 font-normal text-custom-black text-shadow-custom">
           <p>
             Currently <span className="text-custom-darkpink">Freelancing</span>{" "}
             for{" "}
@@ -62,7 +62,7 @@ const Hero = () => {
           <img
             src="/src/assets/IMG_04261.jpg"
             alt="Profile"
-            className="w-[341px] h-[341px] rounded-[22px] object-cover absolute bottom-[80px] left-[30px] border-2 border-black shadow-2xl"
+            className="w-[341px] h-[341px] rounded-[22px] object-cover absolute bottom-[80px] left-[30px] shadow-2xl"
           />
         </div>
       </div>

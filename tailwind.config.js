@@ -21,6 +21,7 @@ module.exports = {
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
+        playfair: ["Playfair Display", "sans-serif"],
       },
       textShadow: {
         custom: "2px 2px 4px rgba(0, 0, 0, 0.5)",

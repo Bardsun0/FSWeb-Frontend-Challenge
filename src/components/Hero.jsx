@@ -5,13 +5,12 @@ const Hero = () => {
         <h1 className="text-3xl font-normal mb-4 text-shadow-custom">
           Hi!<span className="ml-2">👋</span>
         </h1>
-        <div className="relative mb-4">
+        <div className="relative">
           <p className="text-[42px] font-medium text-shadow-custom">
             I'm Ozan. I'm a frontend developer.
           </p>
-          <div className="absolute bottom-[-5px] left-[-15px] w-[148px] h-[31px] bg-custom-pink bg-opacity-80 shadow-2xl rounded-md"></div>
         </div>
-        <p className="text-[42px] mb-4 font-medium text-shadow-custom">
+        <p className="text-[42px] mb-2 font-medium text-shadow-custom">
           I can craft solid and scalable frontend products.
           <p>Let's meet!</p>
         </p>
@@ -58,7 +57,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="relative pt-10 pr-5">
-        <div className="w-[361px] h-[361px] rounded-[40px] overflow-hidden bg-custom-pink flex items-center justify-center shadow-2xl">
+        <div className="w-[361px] h-[361px] rounded-[40px] overflow-hidden bg-custom-pink flex items-center justify-center">
           <img
             src="/src/assets/IMG_04261.jpg"
             alt="Profile"

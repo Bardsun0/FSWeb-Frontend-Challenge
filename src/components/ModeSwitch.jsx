@@ -3,10 +3,23 @@ const ModeSwitch = ({ darkMode, setDarkMode }) => {
     <div className="w-[359px] h-[38px] p-[10px] text-custom-modecolor font-inter font-bold flex items-center tracking-wider relative transform translate-x-[-20px] translate-y-[40px]">
       <div className="flex items-center">
         <button
-          className="bg-custom-pink w-[55px] h-[24px] rounded-full relative mr-2 right-[28px] bottom-[2px]"
+          className={`w-[55px] h-[24px] rounded-full relative mr-2 right-[28px] bottom-[2px] ${
+            darkMode ? "bg-custom-black" : "bg-custom-pink"
+          } transition-colors duration-300`}
           onClick={() => setDarkMode(!darkMode)}
         >
-          <span className="w-[16px] h-[16px] bg-custom-yellow rounded-full absolute top-[4px] left-[4px]"></span>
+          <span
+            className={`w-[16px] h-[16px] rounded-full absolute top-[4px] 
+            transition-all duration-300 ease-in-out ${
+              darkMode
+                ? "bg-white left-[4px] transform scale-x-75"
+                : "bg-custom-yellow left-[35px]"
+            } ${
+              darkMode
+                ? 'after:content-[""] after:absolute after:top-0 after:right-0 after:w-4/5 after:h-full after:bg-custom-yellow after:rounded-l-full'
+                : ""
+            }`}
+          ></span>
         </button>
         <div className="relative bottom-[2px] right-[28px]">
           {darkMode ? "LIGHT MODE" : "DARK MODE"}

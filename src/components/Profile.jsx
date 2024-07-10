@@ -6,7 +6,7 @@ function Profile() {
       </p>
       <div className="flex justify-between items-start">
         <div className="w-[508px] h-[322px] text-[18px] bg-white rounded-xl p-6 -mt-[44px] ml-[-20px]">
-          <h2 className="text-[24px] text-custom-pink1 mb-4 font-playfair font-medium">
+          <h2 className="text-[24px] text-custom-pink1 mb-4 font-playfair font-medium tracking-wider">
             Basic Information
           </h2>
           <div className="space-y-4">

@@ -8,7 +8,7 @@ const ModeSwitch = () => {
         <div className="relative bottom-[2px] right-[28px]">DARK MODE</div>
       </div>
       <div className="relative right-[12px]">|</div>
-      <div className="relative left-[12px]">
+      <div className="relative left-[12px] bottom-[2px]">
         <span className="text-custom-pink">TÜRKÇE</span>'YE GEÇ
       </div>
     </div>

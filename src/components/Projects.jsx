@@ -2,11 +2,11 @@ function Projects() {
   return (
     <div className="w-[1440px] h-[1320px] flex flex-col items-center py-12">
       <div className="w-[1064px] h-[792px] flex flex-col items-center">
-        <p className="font-inter font-medium text-[36px] text-shadow-custom mb-8">
+        <p className="font-inter font-medium text-[36px] text-shadow-custom mb-[72px] ">
           Projects
         </p>
-        <div className="flex justify-between mb-16">
-          <div className="w-[500px] h-[668px] p-8">
+        <div className="flex justify-between -mt-[30px] ml-[-100px]">
+          <div className="w-[500px] h-[668px] p-16">
             <h2 className="font-playfair font-bold text-[29px] mb-4">
               Random Jokes
             </h2>
@@ -15,10 +15,10 @@ function Projects() {
               aut, odit laborum aliquam voluptatum nisi mollitia.
             </p>
             <div className="font-playfair font-bold flex flex-wrap gap-2 mb-6">
-              <span className="bg-white px-3 py-1 rounded-full">react</span>
-              <span className="bg-white px-3 py-1 rounded-full">vercel</span>
-              <span className="bg-white px-3 py-1 rounded-full">axios</span>
-              <span className="bg-white px-3 py-1 rounded-full">router</span>
+              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px]">react</span>
+              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px]">vercel</span>
+              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px]">axios</span>
+              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px]">router</span>
             </div>
             <div className="font-inter font-semibold text-[20px] flex justify-between">
               <a href="#" className="mr-12">
@@ -29,7 +29,7 @@ function Projects() {
               </a>
             </div>
           </div>
-          <div className="w-[500px] h-[668px] p-8">
+          <div className="w-[500px] h-[668px] p-16">
             <h2 className="font-playfair font-bold text-[29px] mb-4">
               Are you bored?
             </h2>
@@ -40,11 +40,11 @@ function Projects() {
               deserunt quam temporibus cumque magnam!
             </p>
             <div className="font-playfair font-bold flex flex-wrap gap-2 mb-6">
-              <span className="bg-white px-3 py-1 rounded-full">react</span>
-              <span className="bg-white px-3 py-1 rounded-full">redux</span>
-              <span className="bg-white px-3 py-1 rounded-full">axios</span>
-              <span className="bg-white px-3 py-1 rounded-full">router</span>
-              <span className="bg-white px-3 py-1 rounded-full">vercel</span>
+              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px]">react</span>
+              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px]">redux</span>
+              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px]">axios</span>
+              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px]">router</span>
+              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px]">vercel</span>
             </div>
             <div className="font-inter font-semibold text-[20px]">
               <a href="#" className="mr-12">

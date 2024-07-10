@@ -14,7 +14,7 @@ function Skills() {
             <img
               src="/src/assets/Icons/js.png"
               alt="JavaScript"
-              className="w-[146px] h-[166px]"
+              className="w-[146px] h-[166px] ml-2"
             />
           </a>
           <a

@@ -1,7 +1,7 @@
 function Profile() {
   return (
     <div className="w-[1440px] h-[546px] font-inter text-custom-black px-[206px] py-[68px]">
-      <p className="text-[36px] text-shadow-custom font-medium mb-[68px] text-center">
+      <p className="text-[36px] text-shadow-custom font-medium mb-[68px] text-center dark:text-white">
         Profile
       </p>
       <div className="flex justify-between items-start">

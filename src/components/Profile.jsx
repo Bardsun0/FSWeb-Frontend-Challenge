@@ -5,11 +5,11 @@ function Profile() {
         Profile
       </p>
       <div className="flex justify-between items-start">
-        <div className="w-[508px] h-[322px] text-[18px] bg-white rounded-xl p-6 -mt-[44px] ml-[-20px]">
+        <div className="w-[508px] h-[322px] text-[18px] bg-white rounded-xl p-6 -mt-[44px] ml-[-20px] dark:bg-custom-darkmodegray">
           <h2 className="text-[24px] text-custom-pink1 mb-4 font-playfair font-medium tracking-wider">
             Basic Information
           </h2>
-          <div className="space-y-4">
+          <div className="space-y-4 dark:text-white">
             <div className="flex">
               <span className="font-bold w-40">Doğum tarihi</span>
               <span className="font-medium">24.03.1996</span>
@@ -30,7 +30,7 @@ function Profile() {
             </div>
           </div>
         </div>
-        <div className="w-[476px] h-[241px]">
+        <div className="w-[476px] h-[241px] dark:text-white">
           <h2 className="text-[24px] mb-4 font-playfair font-medium">
             About me
           </h2>

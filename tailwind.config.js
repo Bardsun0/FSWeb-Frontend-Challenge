@@ -19,6 +19,7 @@ module.exports = {
         "custom-yellow": "#FFE86E",
         "custom-lightgray": "#F4F4F4",
         "custom-modecolor": "#777777",
+        "custom-darkmodegray": "#525252",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

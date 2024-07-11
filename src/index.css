@@ -8,10 +8,11 @@
   background-image: url("/src/assets/Birinci\ Alternatif.png");
 }
 
-.dark {
-  @apply bg-gray-900 text-white;
+.dark .App {
+  background-image: url("/src/assets/Birinci\ Alternatif_Dark.png"); 
 }
 
-.dark .App {
-  background-image: url("/src/assets/DarkModeBackground.png"); /* Karanlık mod için arka plan resmi */
+.dark {
+  @apply bg-custom-black text-white;
 }
+

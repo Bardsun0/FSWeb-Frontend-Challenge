@@ -38,7 +38,7 @@ const Hero = () => {
             />
           </a>
         </div>
-        <div className="text-lg leading-relaxed mt-4 font-normal text-custom-black text-shadow-custom">
+        <div className="text-lg leading-relaxed mt-4 font-normal text-custom-black text-shadow-custom dark:text-white">
           <p>
             Currently <span className="text-custom-darkpink">Freelancing</span>{" "}
             for{" "}

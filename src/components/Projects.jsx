@@ -15,16 +15,16 @@ function Projects() {
               aut, odit laborum aliquam voluptatum nisi mollitia.
             </p>
             <div className="font-playfair font-extrabold flex flex-wrap gap-2 mb-10 relative right-[15px]">
-              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px]">
+              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px] dark:bg-custom-darkmodegray">
                 react
               </span>
-              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px]">
+              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px] dark:bg-custom-darkmodegray">
                 vercel
               </span>
-              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px]">
+              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px] dark:bg-custom-darkmodegray">
                 axios
               </span>
-              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px]">
+              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px] dark:bg-custom-darkmodegray">
                 router
               </span>
             </div>
@@ -48,19 +48,19 @@ function Projects() {
               deserunt quam temporibus cumque magnam!
             </p>
             <div className="font-playfair font-extrabold flex flex-wrap gap-2 mb-6">
-              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px]">
+              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px] dark:bg-custom-darkmodegray">
                 react
               </span>
-              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px]">
+              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px] dark:bg-custom-darkmodegray">
                 redux
               </span>
-              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px]">
+              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px] dark:bg-custom-darkmodegray">
                 axios
               </span>
-              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px]">
+              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px] dark:bg-custom-darkmodegray">
                 router
               </span>
-              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px]">
+              <span className="bg-white px-3 py-1 rounded-full w-[91px] h-[32px] dark:bg-custom-darkmodegray">
                 vercel
               </span>
             </div>

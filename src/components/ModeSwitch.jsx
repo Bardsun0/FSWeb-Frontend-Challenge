@@ -21,7 +21,7 @@ const ModeSwitch = ({ darkMode, setDarkMode }) => {
             }`}
           ></span>
         </button>
-        <div className="relative bottom-[2px] right-[28px]">
+        <div className="relative bottom-[2px] right-[28px] dark:text-white">
           {darkMode ? "LIGHT MODE" : "DARK MODE"}
         </div>
       </div>

@@ -1,22 +1,21 @@
 import translations from "../translations";
 
 const Hero = ({ language }) => {
-  const t = translations[language]
+  const t = translations[language];
 
   return (
     <div className="w-[1107px] h-[493px] font-inter flex justify-between">
       <div className="flex-1 pr-8 flex flex-col justify-between font-semibold">
         <h1 className="text-3xl font-normal mb-4 text-shadow-custom">
-          Hi!<span className="ml-2">👋</span>
+          {t.greeting}
+          <span className="ml-2">👋</span>
         </h1>
         <div className="relative">
-          <p className="text-[42px] font-medium text-shadow-custom">
-            I'm Ozan. I'm a frontend developer.
-          </p>
+          <p className="text-[42px] font-medium text-shadow-custom">{t.p1}</p>
         </div>
         <p className="text-[42px] mb-2 font-medium text-shadow-custom">
-          I can craft solid and scalable frontend products.
-          <p>Let's meet!</p>
+          {t.p2}
+          <p>{t.letsMeet}</p>
         </p>
         <div className="flex items-center space-x-4 mt-12">
           <a
@@ -44,13 +43,13 @@ const Hero = ({ language }) => {
         </div>
         <div className="text-lg leading-relaxed mt-4 font-normal text-custom-black text-shadow-custom dark:text-white">
           <p>
-            Currently <span className="text-custom-darkpink">Freelancing</span>{" "}
-            for{" "}
-            <span className="text-custom-darkpink">UX, UI, & Web Design </span>
-            Project .
+            {t.currently}{" "}
+            <span className="text-custom-darkpink">{t.freelancing}</span>{" "}
+            {t.for} <span className="text-custom-darkpink">{t.afterFor} </span>
+            {t.project}
           </p>
           <p>
-            Invite me to join your team →{" "}
+            {t.inviteMessage}{" "}
             <a
               href="mailto:ozangunes2894@gmail.com"
               className="text-custom-darkpink underline"

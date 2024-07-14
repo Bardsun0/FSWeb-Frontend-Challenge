@@ -23,7 +23,12 @@ function App() {
         darkMode ? "dark" : ""
       }`}
     >
-      <BGHero darkMode={darkMode} setDarkMode={setDarkMode} language={language} setLanguage={setLanguage} />
+      <BGHero
+        darkMode={darkMode}
+        setDarkMode={setDarkMode}
+        language={language}
+        setLanguage={setLanguage}
+      />
       <Skills language={language} />
       <Profile language={language} />
       <Projects language={language} />

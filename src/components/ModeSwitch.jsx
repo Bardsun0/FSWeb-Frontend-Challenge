@@ -30,12 +30,18 @@ const ModeSwitch = ({ darkMode, setDarkMode, language, setLanguage }) => {
           ></span>
         </button>
         <div className="relative bottom-[2px] right-[28px] dark:text-white">
-          {darkMode ? "LIGHT MODE" : "DARK MODE"}
+          {darkMode ? t.lightMode : t.darkMode}
         </div>
       </div>
       <div className="relative right-[12px]">|</div>
-      <button onClick={toggleLanguage} className="relative left-[12px] bottom-[2px]">
-        <span className="text-custom-pink">TÜRKÇE</span>'YE GEÇ
+      <button
+        onClick={toggleLanguage}
+        className="relative left-[12px] bottom-[2px]"
+      >
+        <span className="text-custom-pink">
+          {language === "en" ? t.switchToTurkish : t.switchToEnglish}
+        </span>
+        {t.toChange}
       </button>
     </div>
   );

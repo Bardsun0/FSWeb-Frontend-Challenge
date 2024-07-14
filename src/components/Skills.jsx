@@ -1,9 +1,13 @@
-function Skills() {
+import translations from "../translations";
+
+function Skills({ language }) {
+  const t = translations[language];
+
   return (
     <div className="w-[1440px] h-[489px]">
       <div className="w-[942px] h-[280px] mx-auto flex flex-col items-center">
         <p className="w-[122px] h-[58px] text-[48px] text-shadow-custom font-inter font-medium text-center my-[68px] mr-[4px]">
-          Skills
+          {t.skillsTitle}
         </p>
         <div className="w-[942px] h-[166px] flex justify-between items-center">
           <a

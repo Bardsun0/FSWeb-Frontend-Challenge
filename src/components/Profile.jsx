@@ -31,19 +31,19 @@ function Profile() {
           {personalData && (
             <div className="space-y-4 dark:text-white">
               <div className="flex">
-                <span className="font-bold w-40">Doğum tarihi</span>
+                <span className="font-bold w-40">Date Of Birth</span>
                 <span className="font-medium">{personalData.dateOfBirth}</span>
               </div>
               <div className="flex">
-                <span className="font-bold w-40">İkamet Şehri</span>
+                <span className="font-bold w-40">City</span>
                 <span className="font-medium">{personalData.city}</span>
               </div>
               <div className="flex">
-                <span className="font-bold w-40">Eğitim Durumu</span>
+                <span className="font-bold w-40">Education</span>
                 <span className="font-medium">{personalData.education}</span>
               </div>
               <div className="flex">
-                <span className="font-bold w-40">Tercih Ettiği Rol</span>
+                <span className="font-bold w-40">Preferred Role</span>
                 <span className="font-medium">
                   {personalData.preferredRole}
                 </span>

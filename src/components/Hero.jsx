@@ -1,4 +1,8 @@
-const Hero = () => {
+import translations from "../translations";
+
+const Hero = ({ language }) => {
+  const t = translations[language]
+
   return (
     <div className="w-[1107px] h-[493px] font-inter flex justify-between">
       <div className="flex-1 pr-8 flex flex-col justify-between font-semibold">

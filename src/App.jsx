@@ -7,6 +7,7 @@ import { useEffect } from "react";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
+  const [language, setLanguage] = useState("en");
 
   useEffect(() => {
     if (darkMode) {
@@ -22,10 +23,10 @@ function App() {
         darkMode ? "dark" : ""
       }`}
     >
-      <BGHero darkMode={darkMode} setDarkMode={setDarkMode} />
-      <Skills />
-      <Profile />
-      <Projects />
+      <BGHero darkMode={darkMode} setDarkMode={setDarkMode} language={language} setLanguage={setLanguage} />
+      <Skills language={language} />
+      <Profile language={language} />
+      <Projects language={language} />
       {/* Diğer componentler buraya eklenecek */}
     </div>
   );

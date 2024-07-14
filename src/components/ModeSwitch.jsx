@@ -1,4 +1,12 @@
-const ModeSwitch = ({ darkMode, setDarkMode }) => {
+import translations from "../translations";
+
+const ModeSwitch = ({ darkMode, setDarkMode, language, setLanguage }) => {
+  const t = translations[language];
+
+  const toggleLanguage = () => {
+    setLanguage(language === "en" ? "tr" : "en");
+  };
+
   return (
     <div className="w-[359px] h-[38px] p-[10px] text-custom-modecolor font-inter font-bold flex items-center tracking-wider relative transform translate-x-[-20px] translate-y-[40px]">
       <div className="flex items-center">
@@ -26,9 +34,9 @@ const ModeSwitch = ({ darkMode, setDarkMode }) => {
         </div>
       </div>
       <div className="relative right-[12px]">|</div>
-      <div className="relative left-[12px] bottom-[2px]">
+      <button onClick={toggleLanguage} className="relative left-[12px] bottom-[2px]">
         <span className="text-custom-pink">TÜRKÇE</span>'YE GEÇ
-      </div>
+      </button>
     </div>
   );
 };

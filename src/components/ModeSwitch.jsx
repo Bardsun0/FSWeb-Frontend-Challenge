@@ -1,10 +1,17 @@
-import translations from "../translations";
+import { useDispatch, useSelector } from "react-redux";
+import { setLanguage } from "../actions";
+import useTranslation from "../hooks/useTranslation";
 
-const ModeSwitch = ({ darkMode, setDarkMode, language, setLanguage }) => {
-  const t = translations[language];
+const ModeSwitch = ({ darkMode, setDarkMode }) => {
+  const dispatch = useDispatch();
+  const currentLanguage = useSelector(
+    (state) => state.language.currentLanguage
+  );
+  const t = useTranslation();
 
   const toggleLanguage = () => {
-    setLanguage(language === "en" ? "tr" : "en");
+    const newLanguage = currentLanguage === "en" ? "tr" : "en";
+    dispatch(setLanguage(newLanguage));
   };
 
   return (
@@ -38,10 +45,8 @@ const ModeSwitch = ({ darkMode, setDarkMode, language, setLanguage }) => {
         onClick={toggleLanguage}
         className="relative left-[12px] bottom-[2px]"
       >
-        <span className="text-custom-pink">
-          {language === "en" ? t.switchToTurkish : t.switchToEnglish}
-        </span>
-        {t.toChange}
+        <span className="text-custom-pink">{t("switchLanguage")}</span>
+        {t("toChange")}
       </button>
     </div>
   );

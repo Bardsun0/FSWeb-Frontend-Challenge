@@ -1,13 +1,15 @@
 import { useDispatch, useSelector } from "react-redux";
 import { setLanguage } from "../actions";
 import useTranslation from "../hooks/useTranslation";
+import useDarkMode from "../hooks/useDarkMode";
 
-const ModeSwitch = ({ darkMode, setDarkMode }) => {
+const ModeSwitch = () => {
   const dispatch = useDispatch();
   const currentLanguage = useSelector(
     (state) => state.language.currentLanguage
   );
   const t = useTranslation();
+  const [darkMode, toggleDarkMode] = useDarkMode();
 
   const toggleLanguage = () => {
     const newLanguage = currentLanguage === "en" ? "tr" : "en";
@@ -21,7 +23,7 @@ const ModeSwitch = ({ darkMode, setDarkMode }) => {
           className={`w-[55px] h-[24px] rounded-full relative mr-2 right-[28px] bottom-[2px] ${
             darkMode ? "bg-custom-black" : "bg-custom-pink"
           } transition-colors duration-300`}
-          onClick={() => setDarkMode(!darkMode)}
+          onClick={toggleDarkMode}
         >
           <span
             className={`w-[16px] h-[16px] rounded-full absolute top-[4px] 
@@ -37,7 +39,7 @@ const ModeSwitch = ({ darkMode, setDarkMode }) => {
           ></span>
         </button>
         <div className="relative bottom-[2px] right-[28px] dark:text-white">
-          {darkMode ? t.lightMode : t.darkMode}
+          {darkMode ? t("lightMode") : t("darkMode")}
         </div>
       </div>
       <div className="relative right-[12px]">|</div>

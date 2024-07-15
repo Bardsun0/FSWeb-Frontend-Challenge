@@ -3,6 +3,7 @@ import reducer from "../reducers";
 import translations from "../translations";
 
 const initialState = {
+  darkMode: false,
   language: {
     currentLanguage: "en",
     translations,

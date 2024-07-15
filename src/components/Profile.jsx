@@ -1,24 +1,9 @@
-import { useEffect, useState } from "react";
-import { getPersonalData } from "../api/api";
+import { usePersonalData } from "../hooks/usePersonalData";
 import useTranslation from "../hooks/useTranslation";
 
 function Profile() {
-  const [personalData, setPersonalData] = useState(null);
+  const { data: personalData } = usePersonalData();
   const t = useTranslation();
-
-  useEffect(() => {
-    const fetchData = () => {
-      getPersonalData()
-        .then((data) => {
-          setPersonalData(data[0]);
-        })
-        .catch((err) => {
-          console.log(err);
-        });
-    };
-
-    fetchData();
-  }, []);
 
   return (
     <div className="w-[1440px] h-[546px] font-inter text-custom-black px-[206px] py-[68px]">

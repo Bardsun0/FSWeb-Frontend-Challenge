@@ -1,13 +1,15 @@
-import { useState } from "react";
+import { setLanguage, toggleDarkMode } from "./actions";
 import BGHero from "./components/BGHero";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
-  const [language, setLanguage] = useState("en");
+  const darkMode = useSelector((state) => state.darkMode);
+  const language = useSelector((state) => state.language);
+  const dispatch = useDispatch();
 
   useEffect(() => {
     if (darkMode) {
@@ -25,9 +27,9 @@ function App() {
     >
       <BGHero
         darkMode={darkMode}
-        setDarkMode={setDarkMode}
+        setDarkMode={() => dispatch(toggleDarkMode())}
         language={language}
-        setLanguage={setLanguage}
+        setLanguage={(lang) => dispatch(setLanguage(lang))}
       />
       <Skills language={language} />
       <Profile language={language} />

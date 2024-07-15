@@ -35,9 +35,9 @@ const translations = {
     skillsTitle: "Skills",
     darkMode: "DARK MODE",
     lightMode: "LIGHT MODE",
-    switchToTurkish: "TURKISH",
-    switchToEnglish: "TO ENGLISH",
-    toChange: " Language",
+    switchLanguage: "TURKISH",
+    switchLanguage1: "TO ENGLISH",
+    toChange: " Switch",
   },
   tr: {
     greeting: "Merhaba!",
@@ -75,8 +75,8 @@ const translations = {
     skillsTitle: "Yetenekler",
     darkMode: "KARANLIK MOD",
     lightMode: "AYDINLIK MOD",
-    switchToTurkish: "TÜRKÇE",
-    switchToEnglish: "İNGİLİZCE",
+    switchLanguage: "İNGİLİZCE",
+    switchLanguage1: "TÜRKÇE",
     toChange: "'YE GEÇ",
   },
 };

@@ -1,2 +1,2 @@
-export const TOOGLE_DARK_MODE = "TOOGLE_DARK_MODE";
+export const TOGGLE_DARK_MODE = "TOGGLE_DARK_MODE";
 export const SET_LANGUAGE = "SET_LANGUAGE";

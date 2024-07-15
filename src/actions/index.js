@@ -1,7 +1,7 @@
-import { SET_LANGUAGE, TOOGLE_DARK_MODE } from "./actions";
+import { SET_LANGUAGE, TOGGLE_DARK_MODE } from "./actions";
 
 export const toggleDarkMode = () => ({
-  type: TOOGLE_DARK_MODE,
+  type: TOGGLE_DARK_MODE,
 });
 
 export const setLanguage = (language) => ({

@@ -15,10 +15,10 @@ const Hero = () => {
             {t("p1")}
           </p>
         </div>
-        <p className="text-[42px] mb-2 font-medium text-shadow-custom">
+        <div className="text-[42px] mb-2 font-medium text-shadow-custom">
           {t("p2")}
           <p>{t("letsMeet")}</p>
-        </p>
+        </div>
         <div className="flex items-center space-x-4 mt-12">
           <a
             href="https://www.linkedin.com/in/ozan-g%C3%BCne%C5%9F-500097312/"

@@ -13,6 +13,7 @@ const ModeSwitch = () => {
 
   const toggleLanguage = () => {
     const newLanguage = currentLanguage === "en" ? "tr" : "en";
+    localStorage.setItem("language", newLanguage);
     dispatch(setLanguage(newLanguage));
   };
 

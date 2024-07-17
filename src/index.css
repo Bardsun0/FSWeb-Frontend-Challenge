@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .App {
-  background-image: url("/src/assets/Birinci\ Alternatif.png");
+  background-image: url("/src/assets/Birinci\ Alternatif1.png");
 }
 
 .dark .App {
@@ -15,3 +15,4 @@
 .dark {
   @apply bg-custom-black text-white;
 }
+

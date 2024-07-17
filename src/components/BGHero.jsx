@@ -21,7 +21,7 @@ function BGHero() {
       </div>
       <button
         onClick={handleContactClick}
-        className="absolute top-[100px] right-[120px] bg-custom-pink text-white p-2 rounded"
+        className="absolute top-[120px] right-[280px] bg-custom-pink text-white p-2 rounded"
       >
         {t("contactMe")}
       </button>

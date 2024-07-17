@@ -20,6 +20,9 @@ module.exports = {
         "custom-lightgray": "#F4F4F4",
         "custom-modecolor": "#777777",
         "custom-darkmodegray": "#525252",
+        "custom-footerblack": "#484148",
+        "custom-projectsdark": "#2D3235",
+        "custom-projectsdark1": "#495351",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

@@ -11,32 +11,36 @@ function Profile() {
         {t("profileTitle")}
       </p>
       <div className="flex justify-between items-start">
-        <div className="w-[508px] h-[322px] text-[18px] bg-white rounded-xl p-6 -mt-[44px] ml-[-20px] dark:bg-custom-darkmodegray">
-          <h2 className="text-[24px] text-custom-pink1 mb-4 font-playfair font-medium tracking-wider">
-            {t("basicInformation")}
-          </h2>
-          {personalData && (
-            <div className="space-y-4 dark:text-white">
-              <div className="flex">
-                <span className="font-bold w-40">{t("dateOfBirth")}</span>
-                <span className="font-medium">{personalData.dateOfBirth}</span>
+        <div className="w-[508px] h-[322px] bg-custom-darkmodegray dark:bg-custom-black rounded-xl -mt-[36px] ml-[-14px]">
+          <div className="w-[500px] h-[313px] text-[18px] bg-white rounded-xl p-8 dark:bg-custom-darkmodegray">
+            <h2 className="text-[24px] text-custom-pink1 mb-8 font-playfair font-medium tracking-wider">
+              {t("basicInformation")}
+            </h2>
+            {personalData && (
+              <div className="space-y-4 dark:text-white">
+                <div className="flex">
+                  <span className="font-bold w-40">{t("dateOfBirth")}</span>
+                  <span className="font-medium">
+                    {personalData.dateOfBirth}
+                  </span>
+                </div>
+                <div className="flex">
+                  <span className="font-bold w-40">{t("city")}</span>
+                  <span className="font-medium">{personalData.city}</span>
+                </div>
+                <div className="flex">
+                  <span className="font-bold w-40">{t("education")}</span>
+                  <span className="font-medium">{personalData.education}</span>
+                </div>
+                <div className="flex">
+                  <span className="font-bold w-40">{t("preferredRole")}</span>
+                  <span className="font-medium">
+                    {personalData.preferredRole}
+                  </span>
+                </div>
               </div>
-              <div className="flex">
-                <span className="font-bold w-40">{t("city")}</span>
-                <span className="font-medium">{personalData.city}</span>
-              </div>
-              <div className="flex">
-                <span className="font-bold w-40">{t("education")}</span>
-                <span className="font-medium">{personalData.education}</span>
-              </div>
-              <div className="flex">
-                <span className="font-bold w-40">{t("preferredRole")}</span>
-                <span className="font-medium">
-                  {personalData.preferredRole}
-                </span>
-              </div>
-            </div>
-          )}
+            )}
+          </div>
         </div>
         <div className="w-[476px] h-[241px] dark:text-white">
           <h2 className="text-[24px] mb-4 font-playfair font-medium">

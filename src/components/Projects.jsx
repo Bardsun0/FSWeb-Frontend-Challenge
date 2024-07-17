@@ -9,8 +9,8 @@ function Projects() {
         <p className="font-inter font-medium text-[36px] text-shadow-custom mb-[72px] relative top-[30px] left-[5px] ">
           {t("projectsTitle")}
         </p>
-        <div className="flex justify-between -mt-[30px] ml-[-100px]">
-          <div className="w-[500px] h-[668px] p-16">
+        <div className="flex justify-between -mt-[10px] ml-[-100px]">
+          <div className="w-[500px] h-[668px] p-16 bg-custom-lightblue1 dark:bg-custom-projectsdark rounded-lg">
             <h2 className="font-playfair font-bold text-[29px] mb-4 tracking-wider">
               {t("randomJokes")}
             </h2>
@@ -39,8 +39,11 @@ function Projects() {
                 {t("goToApp")}
               </a>
             </div>
+            <div className="w-[500px] h-[287px] relative right-[40px] top-[16px]">
+              <img src="/src/assets/Group 104.png" />
+            </div>
           </div>
-          <div className="w-[500px] h-[668px] p-16 relative left-[64px] ">
+          <div className="w-[500px] h-[668px] p-16 relative left-[64px] bg-custom-lightgreen dark:bg-custom-projectsdark1 rounded-lg">
             <h2 className="font-playfair font-bold text-[29px] mb-4 tracking-wider">
               {t("bored")}
             </h2>
@@ -72,9 +75,12 @@ function Projects() {
                 {t("goToApp")}
               </a>
             </div>
+            <div className="w-[500px] h-[287px] relative right-[40px] top-[30px]">
+              <img src="/src/assets/Group 104.png" />
+            </div>
           </div>
         </div>
-        <div className="w-full flex items-center justify-center h-[200px] font-inter font-medium relative top-[210px]">
+        <div className="w-full flex items-center justify-center h-[200px] font-inter font-medium relative top-[190px]">
           <div className="text-center relative bottom-[16px] left-[26px]">
             <p className="text-[42px] mb-2">{t("workTogether")}</p>
             <p className="text-[42px] relative bottom-[10px] left-[42px]">

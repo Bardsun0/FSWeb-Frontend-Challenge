@@ -8,7 +8,7 @@ function BGHero() {
   const navigateWithToast = useNavigateWithToast();
 
   const handleContactClick = () => {
-    navigateWithToast("/contact", t("İletişim formuna yönlendiriliyorsunuz!"));
+    navigateWithToast("/contact", t("navigatingToContact"));
   };
 
   return (

@@ -18,7 +18,7 @@ const ContactMe = () => {
   const onSubmit = (data) => {
     dispatch(setFormData(data));
     console.log("Form data:", data);
-    navigateWithToast("/thank-you", "Form başarıyla gönderildi!");
+    navigateWithToast("/thank-you", t("formToContact"));
   };
 
   const navigateWithToast = useNavigateWithToast();

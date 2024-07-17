@@ -53,6 +53,8 @@ const translations = {
     phoneNumberRequired: "Phone number is required",
     thankYouMessage:
       "Your message has been sent. I will contact you as soon as possible.",
+    navigatingToContact: "Navigating to Contact page...",
+    formToContact: "The form has been sent successfully!",
   },
   tr: {
     greeting: "Merhaba!",
@@ -108,6 +110,8 @@ const translations = {
     phoneNumberRequired: "Telefon numarası gereklidir",
     thankYouMessage:
       "Mesajınız iletilmiştir. En kısa sürede sizinle iletişime geçeceğim.",
+    navigatingToContact: "İletişim sayfasına yönlendiriliyor...",
+    formToContact: "Form başarıyla gönderildi!",
   },
 };
 

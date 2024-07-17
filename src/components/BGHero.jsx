@@ -1,11 +1,15 @@
-import { useNavigate } from "react-router-dom";
 import Hero from "./Hero";
 import ModeSwitch from "./ModeSwitch";
 import useTranslation from "../hooks/useTranslation";
+import useNavigateWithToast from "../hooks/useNavigateWithToast";
 
 function BGHero() {
-  const navigate = useNavigate();
   const t = useTranslation();
+  const navigateWithToast = useNavigateWithToast();
+
+  const handleContactClick = () => {
+    navigateWithToast("/contact", t("İletişim formuna yönlendiriliyorsunuz!"));
+  };
 
   return (
     <div className="w-[1440px] h-[738px] relative">
@@ -16,7 +20,7 @@ function BGHero() {
         <Hero />
       </div>
       <button
-        onClick={() => navigate("/contact")}
+        onClick={handleContactClick}
         className="absolute top-[100px] right-[120px] bg-custom-pink text-white p-2 rounded"
       >
         {t("contactMe")}

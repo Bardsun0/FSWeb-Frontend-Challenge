@@ -4,6 +4,8 @@ import { useSelector } from "react-redux";
 import ContactMe from "./pages/ContactMe";
 import ThankYou from "./pages/ThankYou";
 import MainPage from "./pages/MainPage";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const darkMode = useSelector((state) => state.darkMode);
@@ -24,10 +26,11 @@ function App() {
         }`}
       >
         <Routes>
-          <Route path="/" element={<MainPage />} />
+          <Route exact path="/" element={<MainPage />} />
           <Route path="/contact" element={<ContactMe />} />
           <Route path="/thank-you" element={<ThankYou />} />
         </Routes>
+        <ToastContainer />
       </div>
     </Router>
   );

@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { setFormData } from "../actions/actions";
 import useTranslation from "../hooks/useTranslation";
+import useNavigateWithToast from "../hooks/useNavigateWithToast";
 
 const ContactMe = () => {
   const {
@@ -17,8 +18,10 @@ const ContactMe = () => {
   const onSubmit = (data) => {
     dispatch(setFormData(data));
     console.log("Form data:", data);
-    navigate("/thank-you");
+    navigateWithToast("/thank-you", "Form başarıyla gönderildi!");
   };
+
+  const navigateWithToast = useNavigateWithToast();
 
   return (
     <div className="w-[1440px] min-h-screen flex flex-col items-center justify-center">

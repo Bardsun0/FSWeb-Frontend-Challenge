@@ -47,6 +47,12 @@ const translations = {
     emailRequired: "Email is required",
     messageRequired: "Message is required",
     invalidEmail: "Invalid email address",
+    lastName: "Last Name",
+    phoneNumber: "Phone Number",
+    lastNameRequired: "Last name is required",
+    phoneNumberRequired: "Phone number is required",
+    thankYouMessage:
+      "Your message has been sent. I will contact you as soon as possible.",
   },
   tr: {
     greeting: "Merhaba!",
@@ -96,6 +102,12 @@ const translations = {
     emailRequired: "E-posta gereklidir",
     messageRequired: "Mesaj gereklidir",
     invalidEmail: "Geçersiz e-posta adresi",
+    lastName: "Soyisim",
+    phoneNumber: "Telefon Numarası",
+    lastNameRequired: "Soyisim gereklidir",
+    phoneNumberRequired: "Telefon numarası gereklidir",
+    thankYouMessage:
+      "Mesajınız iletilmiştir. En kısa sürede sizinle iletişime geçeceğim.",
   },
 };
 

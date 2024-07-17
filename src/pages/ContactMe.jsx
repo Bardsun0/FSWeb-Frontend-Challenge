@@ -1,4 +1,3 @@
-import React from "react";
 import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
@@ -18,7 +17,7 @@ const ContactMe = () => {
   const onSubmit = (data) => {
     dispatch(setFormData(data));
     console.log("Form data:", data);
-    // Burada form gönderimi işlemlerini yapabilirsiniz
+    navigate("/thank-you");
   };
 
   return (
@@ -35,6 +34,30 @@ const ContactMe = () => {
           />
           {errors.name && (
             <span className="text-red-500">{errors.name.message}</span>
+          )}
+        </div>
+        <div className="mb-4">
+          <label htmlFor="lastName" className="block mb-2">
+            {t("lastName")}
+          </label>
+          <input
+            {...register("lastName", { required: t("lastNameRequired") })}
+            className="w-full p-2 border rounded"
+          />
+          {errors.lastName && (
+            <span className="text-red-500">{errors.lastName.message}</span>
+          )}
+        </div>
+        <div className="mb-4">
+          <label htmlFor="phoneNumber" className="block mb-2">
+            {t("phoneNumber")}
+          </label>
+          <input
+            {...register("phoneNumber", { required: t("phoneNumberRequired") })}
+            className="w-full p-2 border rounded"
+          />
+          {errors.phoneNumber && (
+            <span className="text-red-500">{errors.phoneNumber.message}</span>
           )}
         </div>
         <div className="mb-4">

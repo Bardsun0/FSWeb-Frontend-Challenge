@@ -1,11 +1,9 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import BGHero from "./components/BGHero";
-import Profile from "./components/Profile";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
-import ContactMe from "./components/ContactMe";
+import ContactMe from "./pages/ContactMe";
+import ThankYou from "./pages/ThankYou";
+import MainPage from "./pages/MainPage";
 
 function App() {
   const darkMode = useSelector((state) => state.darkMode);
@@ -26,18 +24,9 @@ function App() {
         }`}
       >
         <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <BGHero />
-                <Skills />
-                <Profile />
-                <Projects />
-              </>
-            }
-          />
+          <Route path="/" element={<MainPage />} />
           <Route path="/contact" element={<ContactMe />} />
+          <Route path="/thank-you" element={<ThankYou />} />
         </Routes>
       </div>
     </Router>

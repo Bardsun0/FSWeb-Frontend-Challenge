@@ -37,7 +37,7 @@ const Hero = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="/gitHub.png"
+              src="/github.png"
               alt="GitHub"
               className="w-[34px] h-[36.14px]"
             />

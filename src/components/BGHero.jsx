@@ -19,12 +19,12 @@ function BGHero() {
       <div className="absolute top-[150px] left-[176px] right-[172px]">
         <Hero />
       </div>
-      <button
+      {/*<button
         onClick={handleContactClick}
         className="absolute top-[120px] right-[280px] bg-custom-pink text-white p-2 rounded"
       >
         {t("contactMe")}
-      </button>
+      </button>*/}
     </div>
   );
 }

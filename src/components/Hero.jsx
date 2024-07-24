@@ -65,7 +65,7 @@ const Hero = () => {
       <div className="relative pt-10 pr-5">
         <div className="w-[361px] h-[361px] rounded-[40px] overflow-hidden bg-custom-pink flex items-center justify-center">
           <img
-            src="/ProfilePhoto.jpg"
+            src="/ProfilePhoto.png"
             alt="Profile"
             className="w-[341px] h-[341px] rounded-[22px] object-cover absolute bottom-[80px] left-[30px] shadow-2xl"
           />

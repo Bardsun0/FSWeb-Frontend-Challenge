@@ -40,7 +40,7 @@ function Projects() {
               </a>
             </div>
             <div className="w-[500px] h-[287px] relative right-[40px] top-[16px]">
-              <img src="/src/assets/Group 104.png" />
+              <img src="/Group 103.png" />
             </div>
           </div>
           <div className="w-[500px] h-[668px] p-16 relative left-[64px] bg-custom-lightgreen dark:bg-custom-projectsdark1 rounded-lg">
@@ -76,7 +76,7 @@ function Projects() {
               </a>
             </div>
             <div className="w-[500px] h-[287px] relative right-[40px] top-[30px]">
-              <img src="/src/assets/Group 104.png" />
+              <img src="/Group 104.png" />
             </div>
           </div>
         </div>

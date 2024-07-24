@@ -16,7 +16,7 @@ function Skills() {
             rel="noopener noreferrer"
           >
             <img
-              src="/src/assets/Icons/js.png"
+              src="/js.png"
               alt="JavaScript"
               className="w-[146px] h-[166px] ml-2"
             />
@@ -27,7 +27,7 @@ function Skills() {
             rel="noopener noreferrer"
           >
             <img
-              src="/src/assets/Icons/react.png"
+              src="/react.png"
               alt="React"
               className="w-[120px] h-[166px]"
             />
@@ -38,7 +38,7 @@ function Skills() {
             rel="noopener noreferrer"
           >
             <img
-              src="/src/assets/Icons/redux.png"
+              src="/redux.png"
               alt="Redux"
               className="w-[120px] h-[166px]"
             />
@@ -49,7 +49,7 @@ function Skills() {
             rel="noopener noreferrer"
           >
             <img
-              src="/src/assets/Icons/node.png"
+              src="/node.png"
               alt="Node"
               className="w-[120px] h-[166px]"
             />
@@ -60,7 +60,7 @@ function Skills() {
             rel="noopener noreferrer"
           >
             <img
-              src="/src/assets/Icons/vscode.png"
+              src="/vscode.png"
               alt="VS Code"
               className="w-[120px] h-[166px]"
             />
@@ -71,7 +71,7 @@ function Skills() {
             rel="noopener noreferrer"
           >
             <img
-              src="/src/assets/Icons/figma.png"
+              src="/figma.png"
               alt="FIGMA"
               className="w-[120px] h-[166px]"
             />
